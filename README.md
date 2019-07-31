@@ -1,2 +1,2 @@
 # AJS-Batch01
-Advanced Javascripting - batch 01
+Advanced JavaScripting Batch 01 - Sunday Evening 
