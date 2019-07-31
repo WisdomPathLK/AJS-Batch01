@@ -118,5 +118,56 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementsByTagName('h1')[0].textContent = "change it";
 });
         
+function myfunc (){
+    return "Hello World"
+
+}
+
+var out = myfunc()
+console.log(out);
+
+//getElement
+
+var firstlist = document.getElementById("first-list");        
+
+//querySelectorAll
+
+//loop the array using native js
+
+var array = ["item 01" , "item 02" , "item03"];
+
+array.forEach(function (val,index) {
+    console.log (val,index);
+
+});
+
+var firstlistLi = document.querySelectorAll ('ul > li');
+
+firstlistLi.forEach(function(ele){
+    ele.style.fontSize = "2em";
+});
+
+//how to loop the object js
+//for-in type loops
+
+var obj = {
+    a : 2,
+    b : 4,
+    c : 6
+};
+
+for (var prop in obj) {
+    console.log (prop, obj[prop]);
+};
+
+
+//how to loop span in js
+
+
+var span = document.getElementsByTagName('span')
+
+console.log ('getElementsByTagName', span);
+
+
 
 
